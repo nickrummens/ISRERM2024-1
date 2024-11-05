@@ -26,11 +26,11 @@ https://github.com/user-attachments/assets/d1bc0645-b1de-433a-879a-4e6a74c878d0
     - More accurate final results: **SPINN outperforms other methods for the noisy case**.
     - These improvements are mainly due to scaling the network outputs which was not done in the paper.
 
-- **No Noise Results**:
+- **No Noise Results**: (with 16 simulated DIC points)
 
 https://github.com/user-attachments/assets/94252fa3-7438-4a27-9d71-89fa7d5d71b0
 
-- **Adding 10% of Std Deviation Noise**:
+- **Adding 10% of Std Deviation Noise**: (49 DIC points)
 
 https://github.com/user-attachments/assets/56be40cd-8fe6-42df-b373-eb3be37991aa
 
@@ -43,6 +43,7 @@ pip install git+https://github.com/bonneted/deepxde.git@ISRERM2024
 
 ## References
 [1] R. Juanes, “A deep learning framework for solution and discovery in solid mechanics,” arXiv:2003.02751[cs, stat], May 2020.
+
 [2] J. Martins, A. Andrade-Campos, and S. Thuillier, “Comparison of inverse identification strategies for constitutive mechanical models using full-field measurements,” International Journal of Mechanical Sciences, vol. 145, pp. 330–345, Sep. 2018.
 
 ## Citation
