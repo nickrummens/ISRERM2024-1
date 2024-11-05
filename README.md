@@ -8,27 +8,31 @@ This repository contains the material corresponding to the publication: **"Separ
 We first consider a simple example introduced by Haghighat et al. (2020)[1]
 
 - **PINN vs SPINN**:
-![image](https://github.com/bonneted/ISRERM2024/blob/main/analytical_example/results_forward/videos/Ux_time_pfnn_10min_vs_spinn_10min.mp4
+  
+https://github.com/user-attachments/assets/2d604fa6-2fb3-45ba-965d-a742a81e9b76
 
 - **Inverse Quantification**:
-PINN:
-![image](https://github.com/bonneted/ISRERM2024/blob/main/analytical_example/results_inverse/pfnn_lmbd-2.0_mu-0.3_nDIC-100_300000iter/Ux-Uy_time.mp4)
-SPINN:
-![image](https://github.com/bonneted/ISRERM2024/blob/main/analytical_example/results_inverse/spinn_lmbd-2.0_mu-0.3_nDIC-100_100000iter/Ux-Uy_time.mp4)
 
-- **Robustness to Noise**: Adding 10% of standard deviation gaussian noise
+https://github.com/user-attachments/assets/d1bc0645-b1de-433a-879a-4e6a74c878d0
+
+- **Robustness to Noise**: Adding 10% of standard deviation Gaussian noise to FEM simulated displacement
+
+![image](https://github.com/user-attachments/assets/8e89e414-70e7-442d-9162-3ddb2b4a8957)
 
 ### 2. Side Loaded Plate
 - **Benchmark Example from Literature**: Comparison with other inverse quantification methods, using the benchmark example from Martins et al. (2018) [2]
 - **Improved Results**: The results presented here are significantly better than those in the paper due to recent improvements:
-    - **Convergence in few minutes** instead of hours for both noise free and noisy cases.
+    - **Convergence in a few minutes** instead of hours for both noise-free and noisy cases.
     - More accurate final results: **SPINN outperforms other methods for the noisy case**.
-    - These improvements are mainly due to the scaling of the network outputs that was not done in the paper.
+    - These improvements are mainly due to scaling the network outputs which was not done in the paper.
 
 - **No Noise Results**:
-![image](https://github.com/bonneted/ISRERM2024/blob/main/side_loaded_plate/results_inverse/spinn_E-100000.0_nu-0.2_nDIC-16_noise-0_5min/Ux-Uy-Sxx-Syy-Sxy_time.mp4)
-- **Adding 10% of Std Deviation Noise**: [Video Placeholder for 10% Noise Results](path/to/video)
-![image](https://github.com/bonneted/ISRERM2024/blob/main/side_loaded_plate/results_inverse/spinn_E-100000.0_nu-0.2_nDIC-49_noise-0.1_5min/Ux-Uy-Sxx-Syy-Sxy_time.mp4)
+
+https://github.com/user-attachments/assets/94252fa3-7438-4a27-9d71-89fa7d5d71b0
+
+- **Adding 10% of Std Deviation Noise**:
+
+https://github.com/user-attachments/assets/56be40cd-8fe6-42df-b373-eb3be37991aa
 
 ## How to Use
 1. Install the custom deepxde library with SPINN implemented :
