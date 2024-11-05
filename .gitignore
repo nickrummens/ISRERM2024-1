@@ -1,0 +1,7 @@
+analytical_example/results_forward/*/*.dat
+analytical_example/results_inverse_noise/*
+analytical_example/results_inverse/*/*.dat
+side_loaded_plate/results_forward/*/*.dat
+side_loaded_plate/results_inverse/*/*.dat
+
+
