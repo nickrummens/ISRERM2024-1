@@ -1,6 +1,7 @@
 # Separable Physics-Informed Neural Networks for Robust Inverse Quantification in Solid Mechanics
 
 This repository contains the material corresponding to the publication: **"Separable Physics-Informed Neural Networks for Robust Inverse Quantification in Solid Mechanics"** presented at ISRERM 2024 conference.
+https://www.researchgate.net/publication/385552345_Separable_Physics-Informed_Neural_Networks_for_Robust_Inverse_Quantification_in_Solid_Mechanics
 
 ## Contents
 
