@@ -8,9 +8,13 @@ This repository contains the material corresponding to the publication: **"Separ
 We first consider a simple example introduced by Haghighat et al. (2020)[1]
 
 - **PINN vs SPINN**:
-[PINN vs SPINN](path/to/video)
+![image](https://github.com/bonneted/ISRERM2024/blob/main/analytical_example/results_forward/videos/Ux_time_pfnn_10min_vs_spinn_10min.mp4
 
 - **Inverse Quantification**:
+PINN:
+![image](https://github.com/bonneted/ISRERM2024/blob/main/analytical_example/results_inverse/pfnn_lmbd-2.0_mu-0.3_nDIC-100_300000iter/Ux-Uy_time.mp4)
+SPINN:
+![image](https://github.com/bonneted/ISRERM2024/blob/main/analytical_example/results_inverse/spinn_lmbd-2.0_mu-0.3_nDIC-100_100000iter/Ux-Uy_time.mp4)
 
 - **Robustness to Noise**: Adding 10% of standard deviation gaussian noise
 
@@ -21,8 +25,10 @@ We first consider a simple example introduced by Haghighat et al. (2020)[1]
     - More accurate final results: **SPINN outperforms other methods for the noisy case**.
     - These improvements are mainly due to the scaling of the network outputs that was not done in the paper.
 
-- **No Noise Results**: [Video Placeholder for No Noise Results](path/to/video)
+- **No Noise Results**:
+![image](https://github.com/bonneted/ISRERM2024/blob/main/side_loaded_plate/results_inverse/spinn_E-100000.0_nu-0.2_nDIC-16_noise-0_5min/Ux-Uy-Sxx-Syy-Sxy_time.mp4)
 - **Adding 10% of Std Deviation Noise**: [Video Placeholder for 10% Noise Results](path/to/video)
+![image](https://github.com/bonneted/ISRERM2024/blob/main/side_loaded_plate/results_inverse/spinn_E-100000.0_nu-0.2_nDIC-49_noise-0.1_5min/Ux-Uy-Sxx-Syy-Sxy_time.mp4)
 
 ## How to Use
 1. Install the custom deepxde library with SPINN implemented :
