@@ -204,8 +204,8 @@ U_DIC = solution_fn(X_DIC_input)[:,:2]
 noise_floor = noise_ratio * np.std(U_DIC)
 U_DIC += np.random.normal(0, noise_floor, U_DIC.shape)
 
-measure_Ux = dde.PointSetBC(X_DIC_input, U_DIC[:, 0:1], component=0)
-measure_Uy = dde.PointSetBC(X_DIC_input, U_DIC[:, 1:2], component=1)
+measure_Ux = dde.PointSetOperatorBC(X_DIC_input, U_DIC[:, 0:1], lambda x, f, x_np: f[0][:,0])
+measure_Uy = dde.PointSetOperatorBC(X_DIC_input, U_DIC[:, 1:2], lambda x, f, x_np: f[0][:,1])
 
 bcs = []
 num_boundary = 0
